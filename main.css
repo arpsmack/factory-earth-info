@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+.flex {
+    display: flex;
+}
+.vflex {
+    display: flex;
+    flex-direction: column;
+}
+#tabs {
+    margin-bottom: 8px;
+}
+.tab {
+    border: 1px solid black;
+    padding: .5em 1em;
+}
+.tab + .tab {
+    margin-left: 1em;
+}
+.tab:not(.active) {
+    cursor: pointer;
+}
+.tab.active {
+    background-color: rgb(207, 207, 252);
+}
+table {
+    border-spacing: 0;
+}
+thead {
+    position: sticky;
+    top: 0;
+}
+thead > tr {
+    background-color: rgb(67, 67, 240);
+    color: white;
+}
+tbody > tr:nth-child(odd) {
+    background-color: rgb(245, 245, 255);
+}
+th {
+    text-align: left;
+}
+th, td {
+    padding: .5em 1em;
+}
+.hidden {
+    display: none;
+}
+.expander {
+    cursor: pointer;
+}
+.expander-icon {
+    display: inline-block;
+    min-width: 2em;
+    text-align: center;
+}
+.non-expandable {
+    margin-left: 2em;
+}
+.expander, .non-expandable {
+    padding: .2em 0;
+}
+.children {
+    margin-left: 1em;
+}
