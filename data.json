@@ -6,7 +6,8 @@
             "input": { "Wood": 1, "Stone": 1 },
             "output": { "Arrow": 1 },
             "required": { "Tool II": 1 },
-            "unlockedBy": { "Research Weapons": 15 }
+            "unlockedBy": { "Research Weapons": 15 },
+            "baseTime": 60
         },
         "Brick I": {
             "category": "",
@@ -14,7 +15,8 @@
             "input": { "Stone": 5 },
             "output": { "Brick": 1 },
             "required": { "Tool II": 1 },
-            "unlockedBy": { "Research Masonry": 10 }
+            "unlockedBy": { "Research Masonry": 10 },
+            "baseTime": 60
         },
         "Bronze Boots": {
             "category": "",
@@ -22,7 +24,8 @@
             "input": { "Bronze": 10 },
             "output": { "Bronze Boots": 1 },
             "required": { "Tool II": 1 },
-            "unlockedBy": { "Research Fire": 20, "Research Metallurgy": 10 }
+            "unlockedBy": { "Research Fire": 20, "Research Metallurgy": 10 },
+            "baseTime": 240
         },
         "Bronze Helmet": {
             "category": "",
@@ -30,14 +33,16 @@
             "input": { "Bronze": 10 },
             "output": { "Bronze Helmet": 1 },
             "required": { "Tool II": 1 },
-            "unlockedBy": { "Research Fire": 20, "Research Metallurgy": 10 }
+            "unlockedBy": { "Research Fire": 20, "Research Metallurgy": 10 },
+            "baseTime": 240
         },
         "Bronze I": {
             "category": "",
             "name": "Bronze I",
             "input": { "Copper": 5, "Tin": 1, "Fire I": 1 },
             "output": { "Bronze": 5 },
-            "unlockedBy": { "Research Fire": 15 }
+            "unlockedBy": { "Research Fire": 15 },
+            "baseTime": 60
         },
         "Bronze Leggings": {
             "category": "",
@@ -45,7 +50,8 @@
             "input": { "Bronze": 10 },
             "output": { "Bronze Leggings": 1 },
             "required": { "Tool II": 1 },
-            "unlockedBy": { "Research Fire": 20, "Research Metallurgy": 10 }
+            "unlockedBy": { "Research Fire": 20, "Research Metallurgy": 10 },
+            "baseTime": 240
         },
         "Bronze Plate": {
             "category": "",
@@ -53,7 +59,8 @@
             "input": { "Bronze": 10 },
             "output": { "Bronze Plate": 1 },
             "required": { "Tool II": 1 },
-            "unlockedBy": { "Research Fire": 20, "Research Metallurgy": 10 }
+            "unlockedBy": { "Research Fire": 20, "Research Metallurgy": 10 },
+            "baseTime": 240
         },
         "Bronze Sword": {
             "category": "",
@@ -61,21 +68,24 @@
             "input": { "Bronze": 10 },
             "output": { "Bronze Sword": 1 },
             "required": { "Tool II": 1 },
-            "unlockedBy": { "Research Weapons": 20, "Research Metallurgy": 10 }
+            "unlockedBy": { "Research Weapons": 20, "Research Metallurgy": 10 },
+            "baseTime": 240
         },
         "Build Pyramid": {
             "category": "",
             "name": "Build Pyramid",
             "input": { "Brick": 1000, "Pyramid Plan": 1 },
             "output": { "Pyramid": 1 },
-            "unlockedBy": { "Research Architecture": 10, "Research Astronomy": 10, "Research Masonry": 10 }
+            "unlockedBy": { "Research Architecture": 10, "Research Astronomy": 10, "Research Masonry": 10 },
+            "baseTime": 300
         },
         "Climb Mountain": {
             "category": "",
             "name": "Climb Mountain",
             "input": { "Fire I": 5 },
             "required": { "Tool III": 1 },
-            "unlockedBy": { "Explore Mountains": 20 }
+            "unlockedBy": { "Explore Mountains": 20 },
+            "baseTime": 30
         },
         "Container I": {
             "category": "",
@@ -83,7 +93,8 @@
             "input": { "Leather": 2 },
             "output": { "Container I": 1 },
             "required": { "Tool II": 1 },
-            "unlockedBy": { "Research Water": 5 }
+            "unlockedBy": { "Research Water": 5 },
+            "baseTime": 60
         },
         "Cook Meat": {
             "category": "",
@@ -91,7 +102,8 @@
             "input": { "Meat": 1 },
             "output": { "Food": 10 },
             "required": { "Fire I": 3 },
-            "unlockedBy": { "Research Fire": 5 }
+            "unlockedBy": { "Research Fire": 5 },
+            "baseTime": 30
         },
         "Copper Boots": {
             "category": "",
@@ -99,7 +111,8 @@
             "input": { "Copper": 10 },
             "output": { "Copper Boots": 1 },
             "required": { "Tool II": 1 },
-            "unlockedBy": { "Research Metallurgy": 5 }
+            "unlockedBy": { "Research Metallurgy": 5 },
+            "baseTime": 60
         },
         "Copper Helmet": {
             "category": "",
@@ -107,14 +120,16 @@
             "input": { "Copper": 10 },
             "output": { "Copper Helmet": 1 },
             "required": { "Tool II": 1 },
-            "unlockedBy": { "Research Metallurgy": 5 }
+            "unlockedBy": { "Research Metallurgy": 5 },
+            "baseTime": 60
         },
         "Copper I": {
             "category": "",
             "name": "Copper I",
             "input": { "Fire I": 1, "Copper Ore": 1 },
             "output": { "Copper": 1 },
-            "unlockedBy": { "Research Geography": 5 }
+            "unlockedBy": { "Research Geography": 5 },
+            "baseTime": 60
         },
         "Copper Leggings": {
             "category": "",
@@ -122,14 +137,16 @@
             "input": { "Copper": 10 },
             "output": { "Copper Leggings": 1 },
             "required": { "Tool II": 1 },
-            "unlockedBy": { "Research Metallurgy": 5 }
+            "unlockedBy": { "Research Metallurgy": 5 },
+            "baseTime": 60
         },
         "Copper Ore I": {
             "category": "",
             "name": "Copper Ore I",
             "output": { "Copper Ore": 1 },
             "required": { "Tool II": 1 },
-            "unlockedBy": { "Research Geography": 5 }
+            "unlockedBy": { "Research Geography": 5 },
+            "baseTime": 60
         },
         "Copper Plate": {
             "category": "",
@@ -137,7 +154,8 @@
             "input": { "Copper": 10 },
             "output": { "Copper Plate": 1 },
             "required": { "Tool II": 1 },
-            "unlockedBy": { "Research Metallurgy": 5 }
+            "unlockedBy": { "Research Metallurgy": 5 },
+            "baseTime": 60
         },
         "Copper Sword": {
             "category": "",
@@ -145,7 +163,8 @@
             "input": { "Copper": 10 },
             "output": { "Copper Sword": 1 },
             "required": { "Tool II": 1 },
-            "unlockedBy": { "Research Metallurgy": 5, "Research Weapons": 5 }
+            "unlockedBy": { "Research Metallurgy": 5, "Research Weapons": 5 },
+            "baseTime": 60
         },
         "Cross River": {
             "category": "",
@@ -158,14 +177,16 @@
             "name": "Domestication - Dogs",
             "input": { "Food": 10 },
             "output": { "Dog": 1 },
-            "unlockedBy": { "Research Nature": 15 }
+            "unlockedBy": { "Research Nature": 15 },
+            "baseTime": 60
         },
         "Domestication - Sheep": {
             "category": "",
             "name": "Domestication - Sheep",
             "input": { "Food": 10 },
             "output": { "Sheep": 1 },
-            "unlockedBy": { "Research Nature": 15 }
+            "unlockedBy": { "Research Nature": 15 },
+            "baseTime": 60
         },
         "Explore East": {
             "category": "",
@@ -211,7 +232,8 @@
         "Explore Ruins": {
             "category": "",
             "name": "Explore Ruins",
-            "required": { "Tool III": 1 }
+            "required": { "Tool III": 1 },
+            "unlockedBy": { "Research History": 15 }
         },
         "Explore South": {
             "category": "",
@@ -233,7 +255,8 @@
             "input": { "Wood": 10 },
             "output": { "Fire I": 1 },
             "required": { "Tool I": 1 },
-            "unlockedBy": { "Research Fire": 5 }
+            "unlockedBy": { "Research Fire": 5 },
+            "baseTime": 120
         },
         "Fire I-II": {
             "category": "",
@@ -241,63 +264,74 @@
             "input": { "Wood": 1 },
             "output": { "Fire I": 1 },
             "required": { "Fire I": 1 },
-            "unlockedBy": { "Research Fire": 5 }
+            "unlockedBy": { "Research Fire": 5 },
+            "baseTime": 15
         },
         "Flute": {
             "category": "",
             "name": "Flute",
             "input": { "Bone": 10 },
             "output": { "Flute": 1 },
-            "unlockedBy": { "Research Crafting": 10, "Research Music": 10 }
+            "unlockedBy": { "Research Crafting": 10, "Research Music": 10 },
+            "baseTime": 180
         },
         "Food I": {
             "category": "",
             "name": "Food I",
             "output": { "Food": 1 },
-            "unlockedBy": { "Explore Surroundings": 2 }
+            "unlockedBy": { "Explore Surroundings": 2 },
+            "baseTime": 20
         },
         "Food II": {
             "category": "",
             "name": "Food II",
             "output": { "Food": 2 },
-            "unlockedBy": { "Research Foraging": 5 }
+            "required": { "Tool I": 1 },
+            "unlockedBy": { "Research Foraging": 5 },
+            "baseTime": 20
         },
         "Hunting I": {
             "category": "",
             "name": "Hunting I",
             "output": { "Bone": 2, "Meat": 2, "Skin": 2 },
-            "unlockedBy": { "Research Nature": 5 }
+            "unlockedBy": { "Research Nature": 5 },
+            "baseTime": 120
         },
         "Hunting II": {
             "category": "",
             "name": "Hunting II",
             "output": { "Bone": 5, "Meat": 5, "Skin": 5 },
-            "unlockedBy": { "Hunting I": 10 }
+            "unlockedBy": { "Hunting I": 10 },
+            "baseTime": 120
         },
         "Hunting III": {
             "category": "",
             "name": "Hunting III",
             "required": { "Dog": 1 },
             "output": { "Bone": 5, "Meat": 5, "Skin": 5 },
-            "unlockedBy": { "Hunting I": 10, "Research Nature": 10 }
+            "unlockedBy": { "Hunting I": 10, "Research Nature": 10 },
+            "baseTime": 60
         },
         "Inspiration 1": {
             "category": "",
             "name": "Inspiration 1",
             "output": { "Inspiration 1": 1 },
-            "unlockedBy": { "Climb Mountain": 20 }
+            "unlockedBy": { "Climb Mountain": 20 },
+            "baseTime": 120
         },
         "Inspiration 2": {
             "category": "",
             "name": "Inspiration 2",
             "output": { "Inspiration 2": 1 },
-            "unlockedBy": { "Explore Ruins": 10 }
+            "unlockedBy": { "Explore Ruins": 10 },
+            "baseTime": 300
         },
         "Inspiration 3": {
             "category": "",
             "name": "Inspiration 3",
             "output": { "Inspiration 3": 1 },
-            "unlockedBy": { "Research Music II": 20 }
+            "unlockedBy": { "Research Music II": 20 },
+            "baseTime": 300
         },
         "Leather Hat": {
             "category": "",
@@ -305,7 +339,8 @@
             "input": { "Leather": 10 },
             "output": { "Leather Hat": 1 },
             "required": { "Tool II": 1 },
-            "unlockedBy": { "Research Crafting": 5 }
+            "unlockedBy": { "Research Crafting": 5 },
+            "baseTime": 60
         },
         "Leather I": {
             "category": "",
@@ -313,7 +348,8 @@
             "input": { "Skin": 10 },
             "output": { "Leather": 1 },
             "required": { "Tool II": 1 },
-            "unlockedBy": { "Research Crafting": 5 }
+            "unlockedBy": { "Research Crafting": 5 },
+            "baseTime": 60
         },
         "Leather Pants": {
             "category": "",
@@ -321,7 +357,8 @@
             "input": { "Leather": 10 },
             "output": { "Leather Pants": 1 },
             "required": { "Tool II": 1 },
-            "unlockedBy": { "Research Crafting": 5 }
+            "unlockedBy": { "Research Crafting": 5 },
+            "baseTime": 60
         },
         "Leather Shirt": {
             "category": "",
@@ -329,7 +366,8 @@
             "input": { "Leather": 10 },
             "output": { "Leather Shirt": 1 },
             "required": { "Tool II": 1 },
-            "unlockedBy": { "Research Crafting": 5 }
+            "unlockedBy": { "Research Crafting": 5 },
+            "baseTime": 60
         },
         "Leather Shoes": {
             "category": "",
@@ -337,38 +375,44 @@
             "input": { "Leather": 10 },
             "output": { "Leather Shoes": 1 },
             "required": { "Tool II": 1 },
-            "unlockedBy": { "Research Crafting": 5 }
+            "unlockedBy": { "Research Crafting": 5 },
+            "baseTime": 60
         },
         "Map of East": {
             "category": "",
             "name": "Map of East",
             "output": { "Map of East": 1 },
-            "unlockedBy": { "Explore Forest": 25, "Research Writing": 10 }
+            "unlockedBy": { "Explore Forest": 25, "Research Writing": 10 },
+            "baseTime": 300
         },
         "Map of North": {
             "category": "",
             "name": "Map of North",
             "output": { "Map of North": 1 },
-            "unlockedBy": { "Explore North II": 20, "Research Writing": 10 }
+            "unlockedBy": { "Explore North II": 20, "Research Writing": 10 },
+            "baseTime": 300
         },
         "Map of South": {
             "category": "",
             "name": "Map of South",
             "output": { "Map of South": 1 },
-            "unlockedBy": { "Explore Mountain II": 20, "Research Writing": 10 }
+            "unlockedBy": { "Explore Mountain II": 20, "Research Writing": 10 },
+            "baseTime": 300
         },
         "Map of West": {
             "category": "",
             "name": "Map of West",
             "output": { "Map of West": 1 },
-            "unlockedBy": { "Explore Plains": 25, "Research Writing": 10 }
+            "unlockedBy": { "Explore Plains": 25, "Research Writing": 10 },
+            "baseTime": 300
         },
         "Map of the Island": {
             "category": "",
             "name": "Map of the Island",
             "input": { "Map of East": 1, "Map of South": 1, "Map of North": 1, "Map of West": 1 },
             "output": { "Map of the Island": 1 },
-            "unlockedBy": { "Research Geography": 10, "Research Writing": 10 }
+            "unlockedBy": { "Research Geography": 10, "Research Writing": 10 },
+            "baseTime": 300
         },
         "Philosopher Hat": {
             "category": "",
@@ -376,7 +420,8 @@
             "input": { "Wool": 10 },
             "output": { "Philosopher Hat": 1 },
             "required": { "Tool II": 1 },
-            "unlockedBy": { "Research Crafting": 5, "Research Philosophy": 10 }
+            "unlockedBy": { "Research Crafting": 5, "Research Philosophy": 10 },
+            "baseTime": 240
         },
         "Philosopher Pants": {
             "category": "",
@@ -384,7 +429,8 @@
             "input": { "Wool": 10 },
             "output": { "Philosopher Pants": 1 },
             "required": { "Tool II": 1 },
-            "unlockedBy": { "Research Crafting": 5, "Research Philosophy": 10 }
+            "unlockedBy": { "Research Crafting": 5, "Research Philosophy": 10 },
+            "baseTime": 240
         },
         "Philosopher Shirt": {
             "category": "",
@@ -392,7 +438,8 @@
             "input": { "Wool": 10 },
             "output": { "Philosopher Shirt": 1 },
             "required": { "Tool II": 1 },
-            "unlockedBy": { "Research Crafting": 5, "Research Philosophy": 10 }
+            "unlockedBy": { "Research Crafting": 5, "Research Philosophy": 10 },
+            "baseTime": 240
         },
         "Philosopher Shoes": {
             "category": "",
@@ -400,20 +447,23 @@
             "input": { "Wool": 10 },
             "output": { "Philosopher Shoes": 1 },
             "required": { "Tool II": 1 },
-            "unlockedBy": { "Research Crafting": 5, "Research Philosophy": 10 }
+            "unlockedBy": { "Research Crafting": 5, "Research Philosophy": 10 },
+            "baseTime": 240
         },
         "Pyramid Plan": {
             "category": "",
             "name": "Pyramid Plan",
             "output": { "Pyramid Plan": 1 },
-            "unlockedBy": { "Research Architecture": 10, "Research Astronomy": 10, "Research Masonry": 10 }
+            "unlockedBy": { "Research Architecture": 10, "Research Astronomy": 10, "Research Masonry": 10 },
+            "baseTime": 300
         },
         "Quiver": {
             "category": "",
             "name": "Quiver",
             "input": { "Arrow": 10, "Quiver(Empty)": 1 },
             "output": { "Quiver": 1 },
-            "unlockedBy": { "Research Weapons": 15 }
+            "unlockedBy": { "Research Weapons": 15 },
+            "baseTime": 5
         },
         "Quiver(Empty)": {
             "category": "",
@@ -421,7 +471,8 @@
             "input": { "Wood": 10 },
             "output": { "Quiver(Empty)": 1 },
             "required": { "Tool II": 1 },
-            "unlockedBy": { "Research Weapons": 15 }
+            "unlockedBy": { "Research Weapons": 15 },
+            "baseTime": 60
         },
         "Reproduction - Dogs": {
             "category": "",
@@ -429,7 +480,8 @@
             "input": { "Food": 5 },
             "output": { "Dog": 1 },
             "required": { "Dog": 2 },
-            "unlockedBy": { "Research Nature": 15 }
+            "unlockedBy": { "Research Nature": 15 },
+            "baseTime": 60
         },
         "Reproduction - Sheep": {
             "category": "",
@@ -437,7 +489,8 @@
             "input": { "Food": 5 },
             "output": { "Sheep": 1 },
             "required": { "Sheep": 2 },
-            "unlockedBy": { "Research Nature": 15 }
+            "unlockedBy": { "Research Nature": 15 },
+            "baseTime": 60
         },
         "Research Architecture": {
             "category": "",
@@ -468,7 +521,8 @@
             "category": "",
             "name": "Research Fire",
             "input": { "Wood": 1 },
-            "unlockedBy": { "Explore West": 6 }
+            "unlockedBy": { "Explore West": 6 },
+            "baseTime": 60
         },
         "Research Foraging": {
             "category": "",
@@ -541,7 +595,8 @@
             "input": { "String": 20 },
             "output": { "Rope": 1 },
             "required": { "Tool II": 1 },
-            "unlockedBy": { "Research Crafting": 5 }
+            "unlockedBy": { "Research Crafting": 5 },
+            "baseTime": 300
         },
         "Stone Boots": {
             "category": "",
@@ -549,14 +604,16 @@
             "input": { "Stone": 10 },
             "output": { "Stone Boots": 1 },
             "required": { "Tool II": 1 },
-            "unlockedBy": { "Stone I": 10 }
+            "unlockedBy": { "Stone I": 10 },
+            "baseTime": 180
         },
         "Stone Bow": {
             "category": "",
             "name": "Stone Bow",
             "input": { "Quiver": 1, "Stone Bow(Empty)": 1 },
             "output": { "Stone Bow": 1 },
-            "unlockedBy": { "Research Masonry": 5, "Research Weapons": 15 }
+            "unlockedBy": { "Research Masonry": 5, "Research Weapons": 15 },
+            "baseTime": 5
         },
         "Stone Bow(Empty)": {
             "category": "",
@@ -564,7 +621,8 @@
             "input": { "Stone": 10 },
             "output": { "Stone Bow(Empty)": 1 },
             "required": { "Tool II": 2 },
-            "unlockedBy": { "Research Masonry": 5, "Research Weapons": 15 }
+            "unlockedBy": { "Research Masonry": 5, "Research Weapons": 15 },
+            "baseTime": 60
         },
         "Stone Helmet": {
             "category": "",
@@ -572,13 +630,15 @@
             "input": { "Stone": 10 },
             "output": { "Stone Helmet": 1 },
             "required": { "Tool II": 1 },
-            "unlockedBy": { "Stone I": 10 }
+            "unlockedBy": { "Stone I": 10 },
+            "baseTime": 180
         },
         "Stone I": {
             "category": "",
             "name": "Stone I",
             "output": { "Stone": 1 },
-            "unlockedBy": { "Explore South": 2 }
+            "unlockedBy": { "Explore South": 2 },
+            "baseTime": 20
         },
         "Stone Leggings": {
             "category": "",
@@ -586,7 +646,8 @@
             "input": { "Stone": 10 },
             "output": { "Stone Leggings": 1 },
             "required": { "Tool II": 1 },
-            "unlockedBy": { "Stone I": 10 }
+            "unlockedBy": { "Stone I": 10 },
+            "baseTime": 180
         },
         "Stone Plate": {
             "category": "",
@@ -594,7 +655,8 @@
             "input": { "Stone": 10 },
             "output": { "Stone Plate": 1 },
             "required": { "Tool II": 1 },
-            "unlockedBy": { "Stone I": 10 }
+            "unlockedBy": { "Stone I": 10 },
+            "baseTime": 180
         },
         "Stone Sword": {
             "category": "",
@@ -602,7 +664,8 @@
             "input": { "Stone": 10 },
             "output": { "Stone Sword": 1 },
             "required": { "Tool II": 1 },
-            "unlockedBy": { "Research Weapons": 10 }
+            "unlockedBy": { "Research Weapons": 10 },
+            "baseTime": 180
         },
         "String I": {
             "category": "",
@@ -610,27 +673,32 @@
             "input": { "Wool": 2 },
             "output": { "String": 1 },
             "required": { "Tool II": 1 },
-            "unlockedBy": { "Research Crafting": 5 }
+            "unlockedBy": { "Research Crafting": 5 },
+            "baseTime": 60
         },
         "Tin I": {
             "category": "",
             "name": "Tin I",
             "input": { "Fire I": 1, "Tin Ore": 1 },
             "output": { "Tin": 1 },
-            "unlockedBy": { "Research Geography": 5 }
+            "unlockedBy": { "Research Geography": 5 },
+            "baseTime": 20
         },
         "Tin Ore I": {
             "category": "",
             "name": "Tin Ore I",
             "output": { "Tin Ore": 1 },
             "required": { "Tool II": 1 },
-            "unlockedBy": { "Research Geography": 5 }
+            "unlockedBy": { "Research Geography": 5 },
+            "baseTime": 120
         },
         "Tool I": {
             "category": "",
             "name": "Tool I",
             "input": { "Wood": 3 },
-            "output": { "Tool I": 1 }
+            "output": { "Tool I": 1 },
+            "unlockedBy": { "Wood I": 5 },
+            "baseTime": 60
         },
         "Tool II": {
             "category": "",
@@ -638,60 +706,69 @@
             "input": { "Stone": 2 },
             "output": { "Tool II": 1 },
             "required": { "Tool I": 1 },
-            "unlockedBy": { "Research Crafting": 5 }
+            "unlockedBy": { "Research Crafting": 5 },
+            "baseTime": 180
         },
         "Tool III": {
             "category": "",
             "name": "Tool III",
             "input": { "Bronze": 3 },
             "output": { "Tool III": 1 },
-            "unlockedBy": { "Research Crafting": 10 }
+            "unlockedBy": { "Research Crafting": 10 },
+            "baseTime": 180
         },
         "Water I": {
             "category": "",
             "name": "Water I",
             "output": { "Water": 1 },
-            "unlockedBy": { "Explore Surroundings": 4 }
+            "unlockedBy": { "Explore Surroundings": 4 },
+            "baseTime": 40
         },
         "Water II": {
             "category": "",
             "name": "Water II",
             "output": { "Water": 5 },
-            "unlockedBy": { "Research Water": 5 }
+            "unlockedBy": { "Research Water": 5 },
+            "baseTime": 40
         },
         "Wood I": {
             "category": "",
             "name": "Wood I",
             "output": { "Wood": 1 },
-            "unlockedBy": { "Explore East": 2 }
+            "unlockedBy": { "Explore East": 2 },
+            "baseTime": 20
         },
         "Wood Plank": {
             "category": "",
             "name": "Wood Plank",
             "input": { "Wood": 10 },
             "output": { "Wood Plank": 1 },
-            "unlockedBy": { "Research Crafting": 10 }
+            "unlockedBy": { "Research Crafting": 10 },
+            "baseTime": 120
         },
         "Wooden Boat": {
             "category": "",
             "name": "Wooden Boat",
             "input": { "Wood Plank": 30 },
             "output": { "Wooden Boat": 1 },
-            "unlockedBy": { "Research Crafting": 15, "Research Water": 15 }
+            "unlockedBy": { "Research Crafting": 15, "Research Water": 15 },
+            "baseTime": 300
         },
         "Wooden Boots": {
             "category": "",
             "name": "Wooden Boots",
             "input": { "Wood": 10 },
             "output": { "Wooden Boots": 1 },
-            "unlockedBy": { "Wood I": 5 }
+            "unlockedBy": { "Wood I": 5 },
+            "baseTime": 30
         },
         "Wooden Bow": {
             "category": "",
             "name": "Wooden Bow",
             "input": { "Quiver": 1, "Wooden Bow(Empty)": 1 },
             "output": { "Wooden Bow": 1 },
-            "unlockedBy": { "Research Weapons": 15 }
+            "unlockedBy": { "Research Weapons": 15 },
+            "baseTime": 5
         },
         "Wooden Bow(Empty)": {
             "category": "",
@@ -699,35 +776,40 @@
             "input": { "Wood": 10 },
             "output": { "Wooden Bow(Empty)": 1 },
             "required": { "Tool II": 2 },
-            "unlockedBy": { "Research Weapons": 15 }
+            "unlockedBy": { "Research Weapons": 15 },
+            "baseTime": 60
         },
         "Wooden Helmet": {
             "category": "",
             "name": "Wooden Helmet",
             "input": { "Wood": 10 },
             "output": { "Wooden Helmet": 1 },
-            "unlockedBy": { "Wood I": 5 }
+            "unlockedBy": { "Wood I": 5 },
+            "baseTime": 30
         },
         "Wooden Leggings": {
             "category": "",
             "name": "Wooden Leggings",
             "input": { "Wood": 10 },
             "output": { "Wooden Leggings": 1 },
-            "unlockedBy": { "Wood I": 5 }
+            "unlockedBy": { "Wood I": 5 },
+            "baseTime": 30
         },
         "Wooden Plate": {
             "category": "",
             "name": "Wooden Plate",
             "input": { "Wood": 10 },
             "output": { "Wooden Plate": 1 },
-            "unlockedBy": { "Wood I": 5 }
+            "unlockedBy": { "Wood I": 5 },
+            "baseTime": 30
         },
         "Wooden Sword": {
             "category": "",
             "name": "Wooden Sword",
             "input": { "Wood": 10 },
             "output": { "Wooden Sword": 1 },
-            "unlockedBy": { "Research Weapons": 5 }
+            "unlockedBy": { "Research Weapons": 5 },
+            "baseTime": 30
         },
         "Wool Hat": {
             "category": "",
@@ -735,21 +817,24 @@
             "input": { "Wool": 10 },
             "output": { "Wool Hat": 1 },
             "required": { "Tool II": 1 },
-            "unlockedBy": { "Research Crafting": 15 }
+            "unlockedBy": { "Research Crafting": 15 },
+            "baseTime": 240
         },
         "Wool I": {
             "category": "",
             "name": "Wool I",
             "output": { "Wool": 1 },
             "required": { "Sheep": 1 },
-            "unlockedBy": { "Research Crafting": 10, "Research Nature": 5 }
+            "unlockedBy": { "Research Crafting": 10, "Research Nature": 5 },
+            "baseTime": 60
         },
         "Wool II": {
             "category": "",
             "name": "Wool II",
             "output": { "Wool": 10 },
             "required": { "Sheep": 1, "Tool III": 1 },
-            "unlockedBy": { "Research Crafting": 10, "Research Nature": 5 }
+            "unlockedBy": { "Research Crafting": 10, "Research Nature": 5 },
+            "baseTime": 120
         },
         "Wool Pants": {
             "category": "",
@@ -757,7 +842,8 @@
             "input": { "Wool": 10 },
             "output": { "Wool Pants": 1 },
             "required": { "Tool II": 1 },
-            "unlockedBy": { "Research Crafting": 15 }
+            "unlockedBy": { "Research Crafting": 15 },
+            "baseTime": 240
         },
         "Wool Shirt": {
             "category": "",
@@ -765,7 +851,8 @@
             "input": { "Wool": 10 },
             "output": { "Wool Shirt": 1 },
             "required": { "Tool II": 1 },
-            "unlockedBy": { "Research Crafting": 15 }
+            "unlockedBy": { "Research Crafting": 15 },
+            "baseTime": 240
         },
         "Wool Shoes": {
             "category": "",
@@ -773,7 +860,16 @@
             "input": { "Wool": 10 },
             "output": { "Wool Shoes": 1 },
             "required": { "Tool II": 1 },
-            "unlockedBy": { "Research Crafting": 15 }
+            "unlockedBy": { "Research Crafting": 15 },
+            "baseTime": 240
+        },
+        "Write Epic Poetry": {
+            "category": "",
+            "name": "Write Epic Poetry",
+            "input": { "Inspiration 1": 1, "Inspiration 2": 1, "Inspiration 3": 1 },
+            "output": { "Epic Poetry": 1 },
+            "unlockedBy": { "Research Fiction": 10, "Research History": 15, "Research Philosophy": 15 },
+            "baseTime": 300
         }
     }
 }

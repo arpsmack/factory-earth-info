@@ -26,13 +26,18 @@ function buildActionList(actions) {
 
     $table.append($head, $body);
 
+    const $timeCell = make("th", "Time");
+    $timeCell.dataset.html = "true";
+    $timeCell.title = "How long each action will take at level 1 assuming a talent modifier of 1.\nActual times will vary based on your character's hidden talents.";
+
     const $headerRow = make("tr");
     $headerRow.append(
         make("th", "Action Name"),
         make("th", "Inputs "),
         make("th", "Outputs"),
         make("th", "Requires"),
-        make("th", "Unlocked By")
+        make("th", "Unlocked By"),
+        $timeCell
     );
     $head.append($headerRow);
 
@@ -45,19 +50,37 @@ function buildActionList(actions) {
         const $output = action.output ? makeVerticalList(action.output) : null;
         const $required = action.required ? makeVerticalList(action.required) : null;
         const $unlock = action.unlockedBy ? makeVerticalList(action.unlockedBy) : null;
+        const $time = action.baseTime ? formatTime(calculateTimeAtLevel(action.baseTime, 1)) : null;
 
         $row.append(
             make("td", $name),
             make("td", $input),
             make("td", $output),
             make("td", $required),
-            make("td", $unlock)
+            make("td", $unlock),
+            make("td", $time)
         );
 
         $body.append($row);
     }
 
     $actions.append($table);
+}
+
+function calculateTimeAtLevel(seconds, level) {
+    const modifier = (1 + 0.1 * level) / 2;
+    return seconds / modifier;
+}
+
+function formatTime(seconds) {
+    if (seconds > 60) {
+        const minutes = Math.floor(seconds / 60);
+        seconds = Math.round((seconds % 60) * 10) / 10;
+        return `${minutes}m ${seconds}s`;
+    } else {
+        seconds = Math.round(seconds * 10) / 10;
+        return `${seconds}s`;
+    }
 }
 
 function buildActionTree(actions) {
