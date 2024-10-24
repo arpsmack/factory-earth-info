@@ -396,7 +396,7 @@
             "category": "",
             "name": "Map of South",
             "output": { "Map of South": 1 },
-            "unlockedBy": { "Explore Mountain II": 20, "Research Writing": 10 },
+            "unlockedBy": { "Explore Mountains II": 20, "Research Writing": 10 },
             "baseTime": 300
         },
         "Map of West": {
@@ -500,7 +500,7 @@
         "Research Astronomy": {
             "category": "",
             "name": "Research Astronomy",
-            "unlockedBy": { "Explore Mountain": 15 }
+            "unlockedBy": { "Explore Mountains": 15 }
         },
         "Research Crafting": {
             "category": "",
