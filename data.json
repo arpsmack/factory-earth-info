@@ -505,7 +505,7 @@
         "Research Crafting": {
             "category": "",
             "name": "Research Crafting",
-            "unlockedBy": { "Explore Mountain": 5 }
+            "unlockedBy": { "Explore Mountains": 5 }
         },
         "Research Earth": {
             "category": "",
